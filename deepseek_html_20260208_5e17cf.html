@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Образовательный сайт по физике, посвященный силе притяжения и закону всемирного тяготения">
+    <meta name="keywords" content="физика, гравитация, сила притяжения, Ньютон, формула, закон всемирного тяготения">
+    <title>Физика: Сила притяжения</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-globe-americas"></i>
+                <span>Физика Притяжения</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="pages/formulas.html"><i class="fas fa-square-root-alt"></i> Формулы</a></li>
+                <li><a href="pages/examples.html"><i class="fas fa-calculator"></i> Примеры</a></li>
+                <li><a href="pages/history.html"><i class="fas fa-history"></i> История</a></li>
+                <li><a href="pages/contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-globe-americas"></i> Сила притяжения</h1>
+            <p class="subtitle">Изучение гравитации, закона всемирного тяготения и его применения для расчета сил притяжения между телами</p>
+        </header>
+        
+        <div class="main-content">
+            <!-- Левая колонка -->
+            <div class="content-left">
+                <div class="card">
+                    <h2><i class="fas fa-balance-scale"></i> Закон всемирного тяготения</h2>
+                    <p>Все тела притягиваются друг к другу с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними.</p>
+                    
+                    <div class="formula-box">
+                        <span class="formula">\[F = G \frac{m_1 m_2}{r^2}\]</span>
+                    </div>
+                    
+                    <div class="formula-explanation">
+                        <p><strong>Где:</strong></p>
+                        <ul class="definition-list">
+                            <li><strong>F</strong> - сила гравитационного притяжения между двумя телами (Н)</li>
+                            <li><strong>G</strong> - гравитационная постоянная (\(6.67430 \times 10^{-11} \text{ м}^3 \text{ кг}^{-1} \text{ с}^{-2}\))</li>
+                            <li><strong>m₁</strong> и <strong>m₂</strong> - массы взаимодействующих тел (кг)</li>
+                            <li><strong>r</strong> - расстояние между центрами масс тел (м)</li>
+                        </ul>
+                    </div>
+                    
+                    <p>Этот фундаментальный закон был открыт Исааком Ньютоном в 1687 году и лег в основу классической механики.</p>
+                    <a href="pages/formulas.html" class="read-more">Подробнее о формулах →</a>
+                </div>
+                
+                <!-- Другие секции -->
+            </div>
+            
+            <!-- Правая колонка -->
+            <div class="content-right">
+                <div class="card">
+                    <h2><i class="fas fa-info-circle"></i> Гравитационная постоянная</h2>
+                    <!-- Содержимое -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Физика Притяжения</h3>
+                    <p>Образовательный ресурс, посвященный изучению силы гравитации и закона всемирного тяготения.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="pages/formulas.html">Формулы</a></li>
+                        <li><a href="pages/examples.html">Примеры</a></li>
+                        <li><a href="pages/history.html">История</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> info@physics-attraction.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 Образовательный сайт по физике. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение внешних скриптов -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+физика-притяжение/
+│
+├── index.html          (главная страница)
+├── style.css          (стили)
+├── script.js          (скрипты)
+├── images/            (папка для изображений)
+│   ├── newton.jpg
+│   ├── earth.jpg
+│   └── gravity.jpg
+└── pages/             (дополнительные страницы)
+    ├── history.html
+    ├── formulas.html
+    └── examples.html
